@@ -1,7 +1,71 @@
-body{
-    font-family: 'Arial';
+  { 
+    box-sizing: border-box;
+  }
+    
+  body {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    color: #222;
+    background: #f7f5f0;
+  }
+
+  header .profile-image {
+    margin-top: 80px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid white;
+    transition: all .5s;
+  }
+  header .profile-image:hover {
+    transform: scale(1.2) rotate(360deg);
+  }
+
+  .main-nav {
+    width: 100%;
+    background: rgb(224, 153, 153);
+    min-height: 30px;
+    padding: 10px;
+    position: fixed;
+    text-align: center;
+  }
+  .nav {
+    display: flex;
+    justify-content: space-around;
+    font-weight: 700;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+  }
+  .nav li {
+    padding: 5px 10px 10px 10px;
+  }
+  .nav a {
+    transition: all .5s;
+  }
+  .nav a:hover {
+    color: white
+  }
+  .card {
+    margin: 10px;
+    margin-left: -850px;
+    padding: 20px 20px 20px;
+    max-width: 350px;
+    text-align: left;
+    background: rgb(247, 205, 205);
+    border-bottom: 4px solid #ccc;
+    border-radius: 10px;
+  }
+  .card:hover {
+    border-color: #03314d;
+  }
+  .flex {
+    display: flex;
+    max-width: 1200px;
+    justify-content: space-around;
+    margin: 0 auto;
 }
 
-h1{
-    background-color:#e2e2e2;
-}
+
